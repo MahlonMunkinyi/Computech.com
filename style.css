@@ -1,0 +1,463 @@
+/*
+/*Home page style */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0px;
+  
+}
+
+/*navgation styles */
+nav {
+  position: relative;
+  left: 0px;
+  bottom: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  bottom: 10px;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.075);
+  margin-bottom: 50px;
+  z-index: 50;
+}
+
+.logo {
+  max-width: 200px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  bottom: 100px;
+  z-index: 9;
+
+}
+
+.signUp {
+  position: relative;
+  top: 20px;
+  left: 100px;
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  font-family: poppins;
+  border-radius: 5px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(37, 170, 225);
+  transition:  background-color 0.15s;
+}
+
+.signUp:hover {
+  background-color:rgb(37, 170, 225);
+  color: white;
+  border-color: rgb(37, 170, 225);
+  font-weight: bold;
+
+}
+
+.aboutbut {
+  position: relative;
+  top: 20px;
+  max-width: fit-content;
+  min-width: 25px;
+  font-family: poppins;
+  font-weight: Bold;
+  color: rgb(37, 170, 225);
+  text-decoration-thickness: 5px;
+  transition: background-color, color 0.15s;
+}
+.aboutbut:hover {
+  background-color:rgb(37, 170, 225);
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  text-decoration-color: rgb(37, 170, 225);
+}
+
+.servicesbut {
+  position: relative;
+  top: 20px;
+  font-family: poppins;
+  font-weight: Bold;
+  color: rgb(37, 170, 225);
+  margin: 100px;
+  padding: 10px;
+  text-decoration-thickness: 5px;
+  transition: background-color, color 0.15s;
+}
+
+.servicesbut:hover {
+  background-color:rgb(37, 170, 225);
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  text-decoration-color:rgb(37, 170, 225);
+}
+
+.contactbut {
+  position: relative;
+  top: 20px;
+  font-family: poppins;
+  font-weight: Bold;
+  color: rgb(37, 170, 225);
+  text-decoration-thickness: 5px;
+  transition: background-color, color 0.15s;
+}
+
+.contactbut:hover {
+  background-color: rgb(37, 170, 225);
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  text-decoration-color: rgb(37, 170, 225);
+}
+
+/*homepage image styles */
+.image1 {
+  position: relative;
+  left: 100px;
+  max-width: 700px;
+  object-fit: cover;
+  z-index: -9;
+  justify-content: center;
+  align-items: center;
+}
+
+.image2{
+  margin-left: 100px;
+  width: 700px;
+  border-radius: 50px;
+  object-fit: cover;
+  z-index: -900;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.9s;
+
+}
+
+.image2:hover{
+  width: 820px;
+}
+
+
+/*Header & paragraph styles */
+
+.header {
+  width: fit-content;
+  font-family: poppins;
+  font-weight: bolder;
+  font-size: 72px;
+  color: rgb(37, 170, 225);
+  position: relative;
+  bottom: 10px;
+  top: 0px;
+  z-index: -40;
+}
+
+.subheader {
+  width: fit-content;
+  font-family: poppins;
+  font-size: 45px;
+  color: rgb(37, 170, 225);
+  position: relative;
+  top: 10px;
+  z-index: -40;
+  
+}
+
+.paragraph{
+  font-family: poppins;
+  font-size: 12px;
+
+
+}
+
+.parag1{
+  color:rgb(37, 170, 225);
+  font-family: poppins;
+  font-size: 12px;
+  position: relative;
+  top: 20px;
+
+}
+.section2 {
+  position: relative;
+  left: 500px;
+  bottom: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 550px;
+  height: 500px;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.26);
+  border-radius: 20px;
+  z-index: 40;
+  transition: padding 0.5s;
+}
+
+.section2:hover{
+  padding: 20px;
+}
+
+.section1 {
+  position: relative;
+  bottom: 100xp;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  z-index: -900;
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+
+}
+
+
+.shape1 {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 300px;
+  max-width: auto;
+}
+
+.shape2{
+  width: 500px;
+  z-index: 30;
+  position: absolute;
+  top: 1850px;
+  right: 40px;
+}
+
+/**************************************/
+/*FOOTER*/
+/**************************************/
+.grid--4--cols{
+  grid-template-columns: repeat(4,  1fr);
+  padding: 4rem 0rem 2rem 8rem;
+}
+
+.footer{
+  background-color:  rgb(37, 170, 225);
+  height: 250px;
+}
+
+.cont-link{
+  text-decoration: none;
+}
+
+.footer-heading{
+  color: #222;
+  font-weight: 550;
+  margin-bottom: 8%;
+}
+
+.copyright{
+  font-size: 12px;
+  position: relative;
+  left: 450px;
+}
+
+.location, .contacts{
+  font-size: 12px;
+}
+
+.logo1{
+  background-color: white;
+  max-width: 200px;
+  position: relative;
+  bottom: 100px;
+  padding: 0px;
+}
+
+.logo-col{
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+
+/*section2 contents styles*/
+.service1 {
+  display: list-item;
+  font-family: poppins;
+  padding: 10px;
+  margin: 20px;
+  transition: font-weight 0.5s;
+  
+}
+
+.service2 {
+  display: list-item;
+  font-family: poppins;
+  z-index: 9;
+  padding: 10px;
+  margin: 20px;
+  transition: font-weight 0.5s;
+}
+
+.service3 {
+  display: list-item;
+  font-family: poppins;
+  padding: 10px;
+  margin: 20px;
+  transition: font-weight 0.5s;
+}
+
+.service4 {
+  display: list-item;
+  font-family: poppins;
+  padding: 10px;
+  margin: 20px;
+  transition: font-weight 0.5s;
+}
+
+.service5 {
+  display: list-item;
+  font-family: poppins;
+  padding: 10px;
+  margin: 20px;
+  transition: font-weight 0.5s;
+}
+
+.service1:hover, .service2:hover, .service3:hover, .service4:hover, .service5:hover{
+  font-weight: bold;
+}
+
+.morebutton{
+  padding: 10px;
+  background-color: rgb(37, 170, 225);
+  font-family: poppins;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.morebutton:hover{
+  background-color: rgba(37, 169, 225, 0.377);
+}
+
+a{
+  color:rgb(37, 170, 225);
+}
+
+h2, h1{
+ font-family: Times New Roman;
+ color:rgb(37, 170, 225);
+}
+
+
+.homepage-text{
+  font-family: poppins;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  margin-bottom: 400px;
+
+}
+
+.article {
+  line-height: normal;
+  width: 48%; 
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 0;
+  font-size: 15px;
+  z-index: 40;
+}
+/*..........................................................................................*/
+
+/*contact page style*/
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  align-items: safe;
+}
+.box {
+  position: relative;
+  background-color: whitesmoke;
+  padding: 70px;
+  border-radius: 10px;
+  box-shadow: 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+#item-1 {
+  position: relative;
+  background-color: rgba(37, 169, 225, 0.466);
+  padding: 70px;
+  border-radius: 10px;
+  box-shadow: 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/**************************************/
+/*FOOTER*/
+/**************************************/
+.grid--4--cols{
+  grid-template-columns: repeat(4,  1fr);
+  padding: 4rem 0rem 2rem 8rem;
+}
+
+.footer{
+  background-color: rgb(37, 170, 225);
+}
+
+.cont-link{
+  text-decoration: none;
+}
+
+.footer-heading{
+  color: #222;
+  font-weight: 550;
+  margin-bottom: 8%;
+}
+
+.copyright{
+  margin-top: 5%;
+  font-size: 12px;
+}
+
+.location, .contacts{
+  font-size: 12px;
+}
+
+.social{
+ position: relative;
+ right: 70px;
+}

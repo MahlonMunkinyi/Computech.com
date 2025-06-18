@@ -1,0 +1,657 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  position: relative;
+  left: 0px;
+  bottom: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.075);
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 200px;
+  padding: 0px;
+  position: relative;
+  bottom: 100px;
+  z-index: 9;
+  transition: width 2s;
+}
+
+.signUp {
+  position: relative;
+  top: 10px;
+  left: 100px;
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  font-family: system-ui;
+  border-radius: 5px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(37, 170, 225);
+}
+
+.signUp:hover {
+  background-color:rgb(37, 170, 225);
+  color: white;
+  border-color: rgb(37, 170, 225);
+  font-weight: bold;
+
+}
+
+.aboutbut {
+  position: relative;
+  top: 20px;
+  max-width: fit-content;
+  min-width: 25px;
+  font-family: poppins;
+  font-weight: Bold;
+  color: rgb(37, 170, 225);
+  text-decoration-thickness: 5px;
+  transition: background-color, color 0.5s;
+}
+.aboutbut:hover {
+  background-color:rgb(37, 170, 225);
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  text-decoration-color: rgb(37, 170, 225);
+}
+
+.servicesbut {
+  position: relative;
+  top: 20px;
+  font-family: poppins;
+  font-weight: Bold;
+  color: rgb(37, 170, 225);
+  margin: 100px;
+  padding: 10px;
+  text-decoration-thickness: 5px;
+  transition: background-color, color 0.5s;
+}
+
+.servicesbut:hover {
+  background-color:rgb(37, 170, 225);
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  text-decoration-color:rgb(37, 170, 225);
+}
+
+.contactbut {
+  position: relative;
+  top: 20px;
+  font-family: poppins;
+  font-weight: Bold;
+  color: rgb(37, 170, 225);
+  text-decoration-thickness: 5px;
+  transition: background-color, color 0.5s;
+}
+
+.contactbut:hover {
+  background-color: rgb(37, 170, 225);
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  text-decoration-color: rgb(37, 170, 225);
+}
+
+.image1 {
+  position: relative;
+  top: 0px;
+  left: 130px;
+  width: 700px;
+  object-fit: cover;
+  z-index: -9;
+  justify-content: center;
+  align-items: center;
+}
+
+.image2{
+  width: 800px;
+  height: 600px;
+  border-radius: 50px;
+  object-fit: cover;
+  z-index: -900;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  bottom: 400px;
+  left: 400px;
+}
+
+.header {
+  width: fit-content;
+  font-family: poppins;
+  font-weight: bolder;
+  font-size: 72px;
+  color: rgb(37, 170, 225);
+  position: relative;
+  bottom: 10px;
+  top: 0px;
+  z-index: -900;
+}
+
+.subheader {
+  width: fit-content;
+  font-family: poppins;
+  font-size: 45px;
+  color: rgb(37, 170, 225);
+  position: relative;
+  top: 10px;
+  z-index: -900;
+  
+}
+
+.parag1{
+  color:rgb(37, 170, 225);
+  font-family: poppins;
+  font-size: 10px;
+  position: relative;
+  top: 20px;
+ 
+}
+
+.section1 {
+  position: relative;
+  bottom: 100xp;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  z-index: -900;
+}
+
+table {
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 400px;
+  width: 500px;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.39);
+  z-index: 9;
+  z-index: -900;
+}
+
+li {
+  padding: 20px;
+  margin: 50px;
+  font-family: system-ui;
+  font-weight: bolder;
+  font-size: 15px;
+  color: rgb(37, 170, 225);
+}
+
+footer {
+  background-color: rgb(37, 170, 225);
+  width: 100%;
+  height: 200px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 550px;
+  height: 500px;
+  margin: 100px;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.103);
+  border-radius: 20px;
+  z-index: 900;
+}
+
+.shape1 {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footercontent {
+  font-family: system-ui;
+  color: white;
+  font-size: 15px;
+  text-shadow: 10px;
+  margin-left: 50px;
+  position: relative;
+  top: 30px;
+}
+
+
+.service1 {
+  display: list-item;
+  font-family: system-ui;
+  padding: 10px;
+  margin: 20px;
+
+  
+}
+
+.service2 {
+  display: list-item;
+  font-family: system-ui;
+  z-index: 9;
+  padding: 10px;
+  margin: 20px;
+
+}
+
+.service3 {
+  display: list-item;
+  font-family: system-ui;
+  padding: 10px;
+  margin: 20px;
+
+}
+
+.service4 {
+  display: list-item;
+  font-family: system-ui;
+  padding: 10px;
+  margin: 20px;
+
+}
+
+.service5 {
+  display: list-item;
+  font-family: system-ui;
+  padding: 10px;
+  margin: 20px;
+
+}
+
+#morebutton{
+  padding: 10px;
+  background-color: rgb(37, 170, 225);
+  font-family: poppins;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+a{
+  color:rgb(37, 170, 225);
+}
+
+h2{
+ font-family: lato;
+ color:rgb(37, 170, 225);
+}
+
+.email{
+  color: blue;
+}
+
+
+
+
+/**************************************/
+/*SERVICES SECTION*/
+/**************************************/
+.section-services{
+  background-color: white;
+  padding: 7rem 5rem 2rem 2rem;
+  padding: o 32px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6;
+  background-image: url(https://t3.ftcdn.net/jpg/04/49/74/10/360_F_449741015_7wFz1d5e1voLD3arDjsyST3TtQkZAhg6.jpg);
+  background-repeat: no-repeat;
+}
+
+.grid {
+  display: grid;
+  gap: 4.5rem;
+  
+}
+
+.grid--2--cols{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/*Code for images in services section*/
+.img-box{
+  padding: 1px;
+  width: fit-content;
+  margin-bottom: 6rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
+  gap: 70%;
+}
+
+.img-services{
+  border-radius: 12px;
+  mix-blend-mode: darken;
+  width: 100%;
+  height: 70%;
+}
+
+
+/*code for headers and description text*/
+.subheading{
+  display: block;
+  font-size: 1.6rem;
+  font-family: poppins;
+  color: rgb(37, 170, 225);
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+
+.secondary-heading, .heading-tertiary{
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.secondary-heading{
+  font-size: 3rem;
+  margin-bottom: 5%;
+  margin-bottom: 5rem;
+
+}
+
+.heading-tertiary{
+  font-size: 2.4rem;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  color: rgb(37, 170, 225);
+}
+
+.service-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding-bottom: 6rem;
+  font-family: poppins;
+}
+
+.container{
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+/**************************************/
+/*OUR TEAM SECTION*/
+/**************************************/
+.section-team{
+  padding: 20px;
+}
+
+.team-heading{
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  color: #333;
+}
+
+.leader-name{
+  font-size: 1.6rem;
+  color:  rgb(37, 170, 225);
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+}
+
+.team-lead{
+  color: #222;
+}
+
+.leader-attributes{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.leader-attribute{
+  font-size: 0.9rem;
+  margin-top: -1rem;
+  margin-bottom: -0.rem;
+  font-family: poppins;
+  color: #222;
+}
+
+.grid--2--cols{
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+}
+
+.team-img{
+  border-radius: 12px;
+  
+}
+
+.team-icon{
+  height: 1.5rem;
+  width: 1.5rem;
+  color: rgb(37, 170, 225);
+}
+
+.development-specialties {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.memeber-info{
+  padding: 2rem;
+}
+
+strong{
+  font-weight: 600;
+}
+
+/**************************************/
+/*SECTION FEATURE*/
+/**************************************/
+.grid--4--cols{
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container{
+  max-width: 73rem;
+  margin: 0 auto;
+}
+
+.section-feature {
+  padding: 0rem 8rem 3rem 0rem;
+  background-image: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg);
+  background-repeat: no-repeat;
+}
+
+.feature-icon{
+  height: 1.5rem;
+  width: 1.5rem;
+  color:rgb(37, 170, 225);
+}
+
+.feature-title{
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.feature-text{
+  font-family: poppins;
+}
+
+/**************************************/
+/*FOOTER*/
+/**************************************/
+.grid--4--cols{
+  grid-template-columns: repeat(4,  1fr);
+  padding: 4rem 0rem 2rem 8rem;
+}
+
+.footer{
+  background-color: #245963f3;
+}
+
+.cont-link{
+  text-decoration: none;
+}
+
+.footer-heading{
+  color: white;
+  font-weight: 550;
+  margin-bottom: 8%;
+}
+
+.copyright{
+  margin-top: 5%;
+  font-size: 12px;
+}
+
+.location, .contacts{
+  font-size: 12px;
+}
+
+
+
+/*****************************/
+/********ABOUT US PAGE********/
+/*****************************/
+.about{
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 60px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  color: white;
+}
+.about-us{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/01/27/44/29/1000_F_127442956_baRJ7PmGWepaCZjHYW6oPUvwBAm0cql4.jpg);
+  background-blend-mode: darken;
+  
+}
+
+.about-title{
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  margin-bottom: 4.5rem;
+  font-size: 4rem;
+}
+
+.about-content{
+  padding: 40px;padding: 4.7rem 4rem 2rem 4rem;
+  color: #555;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8;
+  font-family: sans-serif;
+  max-width: 130rem;
+  margin: 0 auto;
+  background-image: url(https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148938116.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707609600&semt=ais);
+  background-repeat: no-repeat;
+}
+
+.paragraph{
+  margin-bottom: 2rem;
+  font-family: poppins;
+}
+
+.grid{
+  display: grid;
+  gap: 6rem;
+}
+  
+.grid--2--cols{
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.get-in-touch{
+  max-width: 90rem;
+  margin: 0 auto;
+  background-image: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg);
+  background-repeat: no-repeat;
+  padding: 2rem 4rem 2rem 20rem;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6;
+  
+}
+
+.mid-content{
+  align-items: center;
+}
+
+.mid-title, .mid-description{
+  font-family: poppins;
+  padding-right: 6rem;
+}
+/**************************************/
+/*BUTTONS*/
+/**************************************/
+.ctu:link, .ctu:visited{
+  display: inline-block;
+  font-weight: 700;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 0.5rem 1.1rem;
+  border-radius: 9px;
+  transition: background-color 1s;
+  margin-top: 10px;
+}
+
+.ctu:link, .ctu:visited{
+  background-color: rgb(37, 170, 225);
+  color: white;
+}
+
+.ctu:hover, .ctu:active{
+  background-color: rgb(3, 47, 241);
+  color: white;
+}
+
+.about-content{
+  max-width: 90rem;
+}
+
+/**************************************/
+/*GALLERY*/
+/**************************************/
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+
+.gallery-item img{
+  display: block;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+}
