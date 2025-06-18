@@ -1,600 +1,622 @@
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 .parent {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 body {
-  margin: 0px;
+    margin: 0px;
 }
 
 nav {
-  position: relative;
-  left: 0px;
-  bottom: 380px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: relative;
+    left: 0px;
+    bottom: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar {
-  position: sticky;
-  top: 0px;
-  width: 100%;
-  height: 100px;
-  background-color: rgb(255, 255, 255);
-  padding: 0px;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.075);
-  margin-bottom: 50px;
-  z-index: 50;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.075);
+    margin-bottom: 50px;
+    z-index: 50;
 }
 
 .logo {
-  width: 200px;
-  padding: 0px;
-  position: relative;
-  bottom: 100px;
-  z-index: 9;
-  transition: width 2s;
+    width: 200px;
+    padding: 0px;
+    position: relative;
+    bottom: 100px;
+    z-index: 9;
+    transition: width 2s;
 }
 
 .signUp {
-  position: relative;
-  top: 10px;
-  left: 100px;
-  height: 50px;
-  width: 100px;
-  background-color: white;
-  font-family: system-ui;
-  border-radius: 5px;
-  border: solid;
-  border-width: 2px;
-  border-color: rgb(37, 170, 225);
+    position: relative;
+    top: 10px;
+    left: 100px;
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    font-family: system-ui;
+    border-radius: 5px;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(37, 170, 225);
 }
 
 .signUp:hover {
-  background-color:rgb(37, 170, 225);
-  color: white;
-  border-color: rgb(37, 170, 225);
-  font-weight: bold;
-
+    background-color: rgb(37, 170, 225);
+    color: white;
+    border-color: rgb(37, 170, 225);
+    font-weight: bold;
 }
 
 .aboutbut {
-  position: relative;
-  top: 20px;
-  max-width: fit-content;
-  min-width: 25px;
-  font-family: poppins;
-  font-weight: Bold;
-  color: rgb(37, 170, 225);
-  text-decoration-thickness: 5px;
-  transition: background-color, color 0.5s;
+    position: relative;
+    top: 20px;
+    max-width: fit-content;
+    min-width: 25px;
+    font-family: poppins;
+    font-weight: Bold;
+    color: rgb(37, 170, 225);
+    text-decoration-thickness: 5px;
+    transition: background-color, color 0.5s;
 }
+
 .aboutbut:hover {
-  background-color:rgb(37, 170, 225);
-  padding: 15px;
-  color: white;
-  border-radius: 5px;
-  text-decoration-color: rgb(37, 170, 225);
+    background-color: rgb(37, 170, 225);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration-color: rgb(37, 170, 225);
 }
 
 .servicesbut {
-  position: relative;
-  top: 20px;
-  font-family: poppins;
-  font-weight: Bold;
-  color: rgb(37, 170, 225);
-  margin: 100px;
-  padding: 10px;
-  text-decoration-thickness: 5px;
-  transition: background-color, color 0.5s;
+    position: relative;
+    top: 20px;
+    font-family: poppins;
+    font-weight: Bold;
+    color: rgb(37, 170, 225);
+    margin: 100px;
+    padding: 10px;
+    text-decoration-thickness: 5px;
+    transition: background-color, color 0.5s;
 }
 
 .servicesbut:hover {
-  background-color:rgb(37, 170, 225);
-  padding: 15px;
-  color: white;
-  border-radius: 5px;
-  text-decoration-color:rgb(37, 170, 225);
+    background-color: rgb(37, 170, 225);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration-color: rgb(37, 170, 225);
 }
 
 .contactbut {
-  position: relative;
-  top: 20px;
-  font-family: poppins;
-  font-weight: Bold;
-  color: rgb(37, 170, 225);
-  text-decoration-thickness: 5px;
-  transition: background-color, color 0.5s;
+    position: relative;
+    top: 20px;
+    font-family: poppins;
+    font-weight: Bold;
+    color: rgb(37, 170, 225);
+    text-decoration-thickness: 5px;
+    transition: background-color, color 0.5s;
 }
 
 .contactbut:hover {
-  background-color: rgb(37, 170, 225);
-  padding: 15px;
-  color: white;
-  border-radius: 5px;
-  text-decoration-color: rgb(37, 170, 225);
+    background-color: rgb(37, 170, 225);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration-color: rgb(37, 170, 225);
 }
 
 .image1 {
-  position: relative;
-  top: 0px;
-  left: 130px;
-  width: 700px;
-  object-fit: cover;
-  z-index: -9;
-  justify-content: center;
-  align-items: center;
+    position: relative;
+    top: 0px;
+    left: 130px;
+    width: 700px;
+    object-fit: cover;
+    z-index: -9;
+    justify-content: center;
+    align-items: center;
 }
 
-.image2{
-  width: 800px;
-  height: 600px;
-  border-radius: 50px;
-  object-fit: cover;
-  z-index: -900;
-  justify-content: center;
-  align-items: center;
-  position:relative;
-  bottom: 400px;
-  left: 400px;
+.image2 {
+    width: 800px;
+    height: 600px;
+    border-radius: 50px;
+    object-fit: cover;
+    z-index: -900;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 400px;
+    left: 400px;
 }
 
 .header {
-  width: fit-content;
-  font-family: poppins;
-  font-weight: bolder;
-  font-size: 72px;
-  color: rgb(37, 170, 225);
-  position: relative;
-  bottom: 10px;
-  top: 0px;
-  z-index: -900;
+    width: fit-content;
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: 72px;
+    color: rgb(37, 170, 225);
+    position: relative;
+    bottom: 10px;
+    top: 0px;
+    z-index: -900;
 }
 
 .subheader {
-  width: fit-content;
-  font-family: poppins;
-  font-size: 45px;
-  color: rgb(37, 170, 225);
-  position: relative;
-  top: 10px;
-  z-index: -900;
-  
+    width: fit-content;
+    font-family: poppins;
+    font-size: 45px;
+    color: rgb(37, 170, 225);
+    position: relative;
+    top: 10px;
+    z-index: -900;
 }
 
-.parag1{ 
-  color:rgb(37, 170, 225);
-  font-family: poppins;
-  font-size: 10px;
-  position: relative;
-  top: 20px;
-
- 
+.parag1 {
+    color: rgb(37, 170, 225);
+    font-family: poppins;
+    font-size: 10px;
+    position: relative;
+    top: 20px;
 }
 
- .paragraph, .mid-description{ 
-  font-size: 1rem;
-  line-height: 1.6;
-  padding-bottom: 6rem;
-  font-family: poppins;
-  margin: 10px;
-
+.paragraph,
+.mid-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-bottom: 6rem;
+    font-family: poppins;
+    margin: 10px;
 }
 
 .section1 {
-  position: relative;
-  bottom: 100xp;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-  z-index: -900;
+    position: relative;
+    bottom: 100xp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    z-index: -900;
 }
 
 table {
-  margin-left: 100px;
-  margin-top: 100px;
-  margin-bottom: 400px;
-  width: 500px;
-  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.39);
-  z-index: 9;
-  z-index: -900;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 400px;
+    width: 500px;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.39);
+    z-index: 9;
+    z-index: -900;
 }
 
 li {
-  padding: 20px;
-  margin: 50px;
-  font-family: system-ui;
-  font-weight: bolder;
-  font-size: 15px;
-  color: rgb(37, 170, 225);
+    padding: 20px;
+    margin: 50px;
+    font-family: system-ui;
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(37, 170, 225);
 }
 
 footer {
-  background-color: rgb(37, 170, 225);
-  width: 100%;
-  height: 200px;
+    background-color: rgb(37, 170, 225);
+    width: 100%;
+    height: 200px;
 }
 
 .section2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-  width: 550px;
-  height: 500px;
-  margin: 100px;
-  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.103);
-  border-radius: 20px;
-  z-index: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 500px;
+    margin: 100px;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.103);
+    border-radius: 20px;
+    z-index: 900;
 }
 
 .shape1 {
-  object-fit: cover;
-  justify-content: center;
-  align-items: center;
-
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
 }
 
 .footercontent {
-  font-family: system-ui;
-  color: white;
-  font-size: 15px;
-  text-shadow: 10px;
-  margin-left: 50px;
-  position: relative;
-  top: 30px;
+    font-family: system-ui;
+    color: white;
+    font-size: 15px;
+    text-shadow: 10px;
+    margin-left: 50px;
+    position: relative;
+    top: 30px;
 }
 
-
 .service1 {
-  display: list-item;
-  font-family: system-ui;
-  padding: 10px;
-  margin: 20px;
-
-  
+    display: list-item;
+    font-family: system-ui;
+    padding: 10px;
+    margin: 20px;
 }
 
 .service2 {
-  display: list-item;
-  font-family: system-ui;
-  z-index: 9;
-  padding: 10px;
-  margin: 20px;
-
+    display: list-item;
+    font-family: system-ui;
+    z-index: 9;
+    padding: 10px;
+    margin: 20px;
 }
 
 .service3 {
-  display: list-item;
-  font-family: system-ui;
-  padding: 10px;
-  margin: 20px;
-
+    display: list-item;
+    font-family: system-ui;
+    padding: 10px;
+    margin: 20px;
 }
 
 .service4 {
-  display: list-item;
-  font-family: system-ui;
-  padding: 10px;
-  margin: 20px;
-
+    display: list-item;
+    font-family: system-ui;
+    padding: 10px;
+    margin: 20px;
 }
 
 .service5 {
-  display: list-item;
-  font-family: system-ui;
-  padding: 10px;
-  margin: 20px;
-
+    display: list-item;
+    font-family: system-ui;
+    padding: 10px;
+    margin: 20px;
 }
 
-#morebutton{
-  padding: 10px;
-  background-color: rgb(37, 170, 225);
-  font-family: poppins;
-  color: white;
-  border: none;
-  border-radius: 3px;
+#morebutton {
+    padding: 10px;
+    background-color: rgb(37, 170, 225);
+    font-family: poppins;
+    color: white;
+    border: none;
+    border-radius: 3px;
 }
 
-a{
-  color:rgb(37, 170, 225);
+a {
+    color: rgb(37, 170, 225);
 }
 
-h2{
- font-family: lato;
- color:rgb(37, 170, 225);
+h2 {
+    font-family: lato;
+    color: rgb(37, 170, 225);
 }
 
-.email{
-  color: blue;
+.email {
+    color: blue;
 }
-
-
 
 
 /**************************************/
+
+
 /*SERVICES SECTION*/
+
+
 /**************************************/
-.section-services{
-  background-color: white;
-  padding: 7rem 5rem 2rem 2rem;
-  padding: o 32px;
-  margin: 0 auto;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.6;
+
+.section-services {
+    background-color: white;
+    padding: 7rem 5rem 2rem 2rem;
+    padding: o 32px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6;
 }
 
 .grid {
-  display: grid;
-  gap: 4.5rem;
-  
+    display: grid;
+    gap: 4.5rem;
 }
 
-.grid--2--cols{
-  grid-template-columns: repeat(2, 1fr);
+.grid--2--cols {
+    grid-template-columns: repeat(2, 1fr);
 }
+
 
 /*Code for images in services section*/
-.img-box{
-  padding: 1px;
-  width: fit-content;
-  margin-bottom: 6rem;
-  margin-left: 3rem;
-  margin-right: 2rem;
-  gap: 70%;
+
+.img-box {
+    padding: 1px;
+    width: fit-content;
+    margin-bottom: 6rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    gap: 70%;
 }
 
-.img-services{
-  border-radius: 12px;
-  mix-blend-mode: darken;
-  width: 90%;
-  height: 70%;
+.img-services {
+    border-radius: 12px;
+    mix-blend-mode: darken;
+    width: 90%;
+    height: 70%;
 }
 
 
 /*code for headers and description text*/
-.subheading{
-  display: block;
-  font-size: 1.6rem;
-  font-family: poppins;
-  color: rgb(37, 170, 225);
-  margin-bottom: 1.6rem;
-  text-transform: uppercase;
+
+.subheading {
+    display: block;
+    font-size: 1.6rem;
+    font-family: poppins;
+    color: rgb(37, 170, 225);
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
 }
 
-.secondary-heading, .heading-tertiary{
-  font-weight: 700;
-  color: #333;
-  letter-spacing: -0.5px;
+.secondary-heading,
+.heading-tertiary {
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
 }
 
-.secondary-heading{
-  font-size: 3rem;
-  margin-bottom: 5%;
-  margin-bottom: 5rem;
-
+.secondary-heading {
+    font-size: 3rem;
+    margin-bottom: 5%;
+    margin-bottom: 5rem;
 }
 
-.heading-tertiary{
-  font-size: 2.4rem;
-  margin-bottom: 3%;
-  margin-top: 2%;
-  color: rgb(37, 170, 225);
+.heading-tertiary {
+    font-size: 2.4rem;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    color: rgb(37, 170, 225);
 }
 
 .service-description {
-  font-size: 1rem;
-  line-height: 1.6;
-  padding-bottom: 6rem;
-  font-family: poppins;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-bottom: 6rem;
+    font-family: poppins;
 }
 
-.container{
-  max-width: 100rem;
-  margin: 0 auto;
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
 }
+
 
 /**************************************/
+
+
 /*OUR TEAM SECTION*/
+
+
 /**************************************/
-.section-team{
-  padding: 20px;
+
+.section-team {
+    padding: 20px;
 }
 
-.team-heading{
-  font-size: 3rem;
-  margin-bottom: 5rem;
-  color: #333;
+.team-heading {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    color: #333;
 }
 
-.leader-name{
-  font-size: 1.6rem;
-  color:  rgb(37, 170, 225);
-  font-weight: 600;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 4rem;
+.leader-name {
+    font-size: 1.6rem;
+    color: rgb(37, 170, 225);
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
 }
 
-.team-lead{
-  color: #222;
+.team-lead {
+    color: #222;
 }
 
-.leader-attributes{
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+.leader-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
-.leader-attribute{
-  font-size: 0.9rem;
-  margin-top: -1rem;
-  margin-bottom: -0.rem;
-  font-family: poppins;
-  color: #222;
+.leader-attribute {
+    font-size: 0.9rem;
+    margin-top: -1rem;
+    margin-bottom: -0.rem;
+    font-family: poppins;
+    color: #222;
 }
 
-.grid--2--cols{
-  grid-template-columns: repeat(2, 1fr);
-  padding: 1rem;
+.grid--2--cols {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
 }
 
-.team-img{
-  border-radius: 12px;
-  width: 530px;
-  height: 500px;
-  
+.team-img {
+    border-radius: 12px;
+    width: 530px;
+    height: 500px;
 }
 
-.team-icon{
-  height: 1.5rem;
-  width: 1.5rem;
-  color: orange;
+.team-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: orange;
 }
 
 .development-specialties {
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
-  border-radius: 1px;
-  overflow: hidden;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    overflow: hidden;
 }
 
-.memeber-info{
-  padding: 2rem;
+.memeber-info {
+    padding: 2rem;
 }
 
-strong{
-  font-weight: 600;
+strong {
+    font-weight: 600;
 }
+
 
 /**************************************/
+
+
 /*SECTION FEATURE*/
+
+
 /**************************************/
-.grid--4--cols{
-  grid-template-columns: repeat(4, 1fr);
+
+.grid--4--cols {
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.container{
-  max-width: 73rem;
-  margin: 0 auto;
+.container {
+    max-width: 73rem;
+    margin: 0 auto;
 }
 
 .section-feature {
-  padding: 0rem 8rem 3rem 0rem;
+    padding: 0rem 8rem 3rem 0rem;
 }
 
-.feature-icon{
-  height: 1.5rem;
-  width: 1.5rem;
-  color: orange;
+.feature-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: orange;
 }
 
-.feature-title{
-  font-size: 1rem;
-  color: #333;
-  font-weight: 600;
-  margin-top: -1rem;
-  margin-bottom: 1rem;
+.feature-title {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
 }
 
-.feature-text{
-  font-family: poppins;
+.feature-text {
+    font-family: poppins;
 }
+
 
 /**************************************/
+
+
 /*FOOTER*/
+
+
 /**************************************/
-.grid--4--cols{
-  grid-template-columns: repeat(4,  1fr);
-  padding: 4rem 0rem 2rem 8rem;
+
+.grid--4--cols {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem 0rem 2rem 8rem;
 }
 
-.footer{
-  background-color:  rgb(37, 170, 225);
-  height: 250px;
+.footer {
+    background-color: rgb(37, 170, 225);
+    height: 250px;
 }
 
-.cont-link{
-  text-decoration: none;
+.cont-link {
+    text-decoration: none;
 }
 
-.footer-heading{
-  color: #222;
-  font-weight: 550;
-  margin-bottom: 8%;
+.footer-heading {
+    color: #222;
+    font-weight: 550;
+    margin-bottom: 8%;
 }
 
-.copyright{
-  font-size: 12px;
-  position: relative;
-  left: 450px;
+.copyright {
+    font-size: 12px;
+    position: relative;
+    left: 450px;
+}
+
+.logo1 {
+    background-color: white;
+    max-width: 200px;
+    position: relative;
+    bottom: 100px;
+    padding: 0px;
+}
+
+.logo-col {
+    text-align: center;
+    justify-content: center;
 }
 
 
-.logo1{
-  background-color: white;
-  max-width: 200px;
-  position: relative;
-  bottom: 100px;
-  padding: 0px;
-}
-
-.logo-col{
-  text-align: center;
-  justify-content: center;
-
-}
 /**************************************/
+
+
 /*BUTTONS*/
+
+
 /**************************************/
-.btn:link, .btn:visited{
-  display: inline-block;
-  font-weight: 700;
-  color: white;
-  font-size: 17px;
-  text-decoration: none;
-  padding: 0.5rem 1.1rem;
-  border-radius: 9px;
-  transition: background-color 1s;
-  margin-top: 10px;
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 0.5rem 1.1rem;
+    border-radius: 9px;
+    transition: background-color 1s;
+    margin-top: 10px;
 }
 
-.btn:link, .btn:visited{
-  background-color: orange;
-  color: white;
+.btn:link,
+.btn:visited {
+    background-color: orange;
+    color: white;
 }
 
-.btn:hover, .btn:active{
-  background-color: skyblue;
-  color: white;
+.btn:hover,
+.btn:active {
+    background-color: skyblue;
+    color: white;
 }
 
-
-.read:link, .read:visited{
-  display: inline-block;
-  font-weight: 700;
-  color: white;
-  font-size: 17px;
-  text-decoration: none;
-  padding: 0.5rem 1.1rem;
-  border-radius: 9px;
-  transition: background-color 1s;
-  margin-top: 2rem;
+.read:link,
+.read:visited {
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 0.5rem 1.1rem;
+    border-radius: 9px;
+    transition: background-color 1s;
+    margin-top: 2rem;
 }
 
-.read:link, .read:visited{
-  background-color: orange;
-  color: white;
+.read:link,
+.read:visited {
+    background-color: orange;
+    color: white;
 }
 
-.read:hover, .read:active{
-  background-color: skyblue;
-  color: white;
+.read:hover,
+.read:active {
+    background-color: skyblue;
+    color: white;
 }
